@@ -16,5 +16,21 @@ namespace praktikumweek14
         {
             InitializeComponent();
         }
+
+        private void button1Reverse_Click(object sender, EventArgs e)
+        {
+                if (textBox1Input.Text == "")
+                {
+                    MessageBox.Show("Tolong isi textbox terlebih dahulu!");
+                }
+        }
+
+        private void button2Sort_Click(object sender, EventArgs e)
+        {
+                if (textBox1Input.Text == "")
+                {
+                    MessageBox.Show("Tolong isi textbox terlebih dahulu!");
+                }
+        }
     }
 }
